@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<!-- Bootstrap Switch CSS -->
+	<link rel="stylesheet" href="css/components/bs-switches.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/colors.php?color=0C1CCC" type="text/css" />
+
+	<!-- Articles Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/articles/articles.css" type="text/css" />
+	<link rel="stylesheet" href="demos/articles/css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Canvas | The Multi-Purpose HTML5 Template</title>
+	<style>
+		@media (min-width: 768px) {
+			.feature-box-border-horizontal .feature-box { position: relative; }
+
+			.feature-box-border-horizontal .feature-box:not(.noborder) .fbox-icon::before,
+			.feature-box-border-horizontal.border-hover-animate .feature-box:not(.noborder) .fbox-icon::after {
+				content: "";
+				position: absolute;
+				top: 31px;
+			    left: calc(50% + 32px);
+			    width: calc(100% - 64px);
+				height: 2px;
+				border: 1px solid #EEE;
+				z-index: 0;
+			}
+
+			.feature-box-border-horizontal.border-dashed .feature-box:not(.noborder) .fbox-icon::before,
+			.feature-box-border-horizontal.border-dashed.border-hover-animate .feature-box:not(.noborder) .fbox-icon::after {
+				border-style: dashed;
+			}
+
+			.feature-box-border-horizontal.border-hover-animate .feature-box:not(.noborder) .fbox-icon::after {
+				display: block;
+				border-color: #222;
+				width: 0;
+				transform-origin: top left;
+				transition: width .3s ease-in-out;
+			}
+
+			/* .feature-box-border-horizontal .feature-box:not(.noborder):nth-child(1) .fbox-icon::before { background-color: #222; } */
+
+			.feature-box-border-horizontal.border-hover-animate .feature-box:not(.noborder):hover .fbox-icon::after {  width: calc(100% - 64px); }
+
+
+			.feature-box-border-horizontal .fbox-icon i,
+			.feature-box-border-horizontal .fbox-border.fbox-light .fbox-icon i {
+				line-height: 60px;
+				font-size: 24px;
+				z-index: 1;
+				text-align: center;
+				box-shadow: 0 0 0px 10px #FFF;
+			}
+
+			.feature-box-border-horizontal .feature-box.flex-column:not(.noborder) .fbox-icon::before,
+			.feature-box-border-horizontal.border-hover-animate .feature-box.flex-column:not(.noborder) .fbox-icon::after {
+				left: calc(0% + 100px);
+			}
+		}
+	</style>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header" data-sticky-class="not-dark">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html" class="standard-logo" data-dark-logo="images/ecja/logo.jpeg"><img src="images/ecja/logo.jpeg"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="images/ecja/logo.jpeg"><img src="images/ecja/logo.jpeg"></a>
+						</div><!-- #logo end -->
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item">
+									<a class="menu-link" href="index.html"><div>Нүүр</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="about-mon.html"><div>Бидний тухай</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="about-mon.html#aisatsu"><div>Мэндчилгээ</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="about-mon.html#gaiyou"><div>Танилцуулга</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="about-mon.html#kyouryoku"><div>Хамтын ажиллагаа</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="education-service-mon.html"><div>Боловсролын үйлчилгээ</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="scholarship-mon.html"><div>Тэтгэлэг</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="japanese-center-mon.html"><div>Япон хэлний сургалт</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="japanese-center-mon.html#intro"><div>Танилцуулга</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="japanese-center-mon.html#teachers"><div>Багш нарын танилцуулга</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="index.html#news"><div>Мэдээлэл</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="anket/ХЭЛНИЙ-БЭЛТГЭЛИЙН-АНКЕТ.docx"><div>Анкет татах</div></a>
+								</li>
+							</ul>	
+							<div class="langWrap">
+								<a href="index.html">MON</a>
+								<a href="index-jp.html">JP</a>
+							</div>				
+						</nav><!-- #primary-menu end -->
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header">
+			<div class="slider-inner">
+				<div class="swiper-container swiper-parent">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-caption slider-caption-center">
+									<h2 data-animate="fadeInUp" class="title">ようこそ<br>EDUCATION CENTER OF JAPANへ</h2>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4)), url('images/ecja/home.jpg') no-repeat top center / cover;"></div>
+						</div>
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-caption slider-caption-center">
+									<h2 data-animate="fadeInUp">Beautifully Flexible</h2>
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
+								</div>
+							</div>
+							<div class="video-wrap">
+								<video id="slide-video" poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
+									<source src='images/videos/explore.webm' type='video/webm' />
+									<source src='images/videos/explore.mp4' type='video/mp4' />
+								</video>
+								<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="container">
+								<div class="slider-caption">
+									<h2 data-animate="fadeInUp">Great Performance</h2>
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/3.jpg'); background-position: center top;"></div>
+						</div>
+					</div>
+					<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+					<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+				</div>
+
+				<a href="#" data-scrollto="#content" data-offset="100" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+
+			</div>
+		</section>
+
+		<section id="content">
+			<div class="content-wrap" style="padding-bottom: 0px;">
+				<div class="container">
+					<div class="row feature-box-border-horizontal border-hover-animate col-mb-50 justify-content-center my-5">
+						<div class="col-md-4 feature-box fbox-light fbox-center fbox-effect">
+							<div class="fbox-icon bg-white mb-4">
+								<a href="#"><i style="font-size: 15px;">2014年</i></a>
+							</div>
+							<div class="fbox-content" style="padding-left: 20px; padding-right: 20px;">
+								<h3 class="nott text-larger mb-4">起源</h3>
+								<p>株式会社Labor Forceは、国際法カウンセリング、外国貿易、人材育成の分野で主要な法律プロジェクトやプログラムを実施する目的で設立されました。</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 feature-box fbox-light fbox-center fbox-effect">
+							<div class="fbox-icon bg-white mb-4">
+								<a href="#"><i style="font-size: 15px;">2018年</i></a>
+							</div>
+							<div class="fbox-content" style="padding-left: 20px; padding-right: 20px;">
+								<h3 class="nott text-larger mb-4">スタート</h3>
+								<p>株式会社Labor Forceは教育サービスに重点を置いており、Education Center of JAPANの設立がスタートされました。</p>
+							</div>
+						</div>
+
+						<div class="col-md-4 feature-box fbox-light fbox-center fbox-effect noborder">
+							<div class="fbox-icon bg-white mb-4">
+								<a href="#"><i style="font-size: 15px;">2021年</i></a>
+							</div>
+							<div class="fbox-content" style="padding-left: 20px; padding-right: 20px;">
+								<h3 class="nott text-larger mb-4">発達</h3>
+								<p>Education Center of JAPANは、グローバルな教育をモンゴルの若者に平等に与え、国際的に訓練された人材を創出する目的で正式に設立されました。</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap" style="padding-top: 0px;">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<div class="col-lg-5">
+							<div class="heading-block">
+								<h1>ビジョン</h1>
+							</div>
+							<p class="lead">私たちの目標は、グローバルな教育をモンゴルの若者に平等に与え、国際的に訓練された人材を創出することです。</p>
+						</div>
+
+						<div class="col-lg-7 align-self-end">
+
+							<div class="position-relative overflow-hidden">
+								<img src="images/ecja/vision.jpg" alt="Chrome">
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="content-wrap d-flex min-vh-50 align-items-center">
+				<div class="container clearfix">
+					<div class="row col-mb-50 justify-content-center">
+
+						<div class="col-xl-6 col-lg-8 text-center">
+							<h3 class="h1 fw-bold mb-3" id="news">最新ニュース</h3>
+						</div>
+
+						<div class="clear"></div>
+
+						<div class="col-xl-4 col-md-6">
+							<div class="card border-0 shadow-sm h-shadow shadow-ts p-3" style="background: url('images/ecja/news1.png') no-repeat top center / cover;">
+								<div class="card-body"> <br><br><br><br><br><br><br><br><br><br>
+									<div class="d-flex align-items-center justify-content-center">
+										<a href="#block-modal-1" data-lightbox="inline" class="button button-xlarge rounded-pill bg-danger nott ls0 px-6 py-3">詳細</a>
+									</div>	
+									<!-- Modal -->
+									<div class="modal1 mfp-hide" id="block-modal-1">
+										<div class="modal-dialog modal-dialog-centered modal-lg">
+											<div class="modal-content bg-white rounded">
+					
+												<div class="row m-0 g-0">
+													<div class="col-12">
+														<div class="row justify-content-between align-items-center p-2 col-mb-30">
+															<div class="col">
+																<h3 class="card-title h2 fw-bold mb-4">2022年4月生の募集を開始しました！</h3>
+																<p class="card-text mb-5">
+																	日本に留学したいと考えている皆様へ
+																	現在、Education Center of JAPANでは日本語学校に2021年4月生を募集しています！
+																	東京市、埼玉市、横浜市、大阪市、静岡県の日本語学校から選べます。
+																	日本語学校について詳しくはホームページから教育サービス→学校案内→募集要項をご覧ください。
+																	お気軽にお問い合わせください。</p>
+															</div>
+														</div>
+													</div>
+												</div>
+					
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-md-6">
+							<div class="card border-0 shadow-sm h-shadow shadow-ts p-3" style="background: url('images/ecja/news2.png') no-repeat top center / cover;">
+								<div class="card-body"> <br><br><br><br><br><br><br><br><br><br>
+									<div class="d-flex align-items-center justify-content-center">
+										<a href="#block-modal-2" data-lightbox="inline" class="button button-xlarge rounded-pill bg-danger nott ls0 px-6 py-3">詳細</a>
+									</div>	
+									<!-- Modal -->
+									<div class="modal1 mfp-hide" id="block-modal-2">
+										<div class="modal-dialog modal-dialog-centered modal-lg">
+											<div class="modal-content bg-white rounded">
+					
+												<div class="row m-0 g-0">
+													<div class="col-12">
+														<div class="row justify-content-between align-items-center p-2 col-mb-30">
+															<div class="col">
+																<h3 class="card-title h2 fw-bold mb-4">2022年7月生の募集を開始しました！</h3>
+																<p class="card-text mb-5">
+																	日本に留学したいと考えている皆様へ
+																	現在、Education Center of JAPANでは日本語学校に2021年7月生を募集しています！
+																	東京市、埼玉市、横浜市、大阪市、静岡県の日本語学校から選べます。
+																	日本語学校について詳しくはホームページから教育サービス→学校案内→募集要項をご覧ください。
+																	お気軽にお問い合わせください。</p>
+															</div>
+														</div>
+													</div>
+												</div>
+					
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xl-4 col-md-6">
+							<div class="card border-0 dark shadow-sm h-shadow shadow-ts p-3" style="background: url('images/ecja/news3.png') no-repeat center center / cover;">
+								<div class="card-body"> <br><br><br><br><br><br><br><br><br><br>
+									<div class="d-flex align-items-center justify-content-center">
+										<a href="#block-modal-3" data-lightbox="inline" class="button button-xlarge rounded-pill bg-danger nott ls0 px-6 py-3">詳細</a>
+									</div>	
+									<!-- Modal -->
+									<div class="modal1 mfp-hide" id="block-modal-3">
+										<div class="modal-dialog modal-dialog-centered modal-lg">
+											<div class="modal-content bg-white rounded">
+					
+												<div class="row m-0 g-0">
+													<div class="col-12">
+														<div class="row justify-content-between align-items-center p-2 col-mb-30">
+															<div class="col">
+																<h3 class="card-title h2 fw-bold mb-4">日本語レッスンがスタート！</h3>
+																<p class="card-text mb-5">
+																	2022年2月7日から”LF日本語センター”ではN5とN４レベルのコースが開始されます。長年の専門的な経験と高度な教育スキルを持っている教師たちが皆さまが満足して成長できる好ましい環境でお待ちしております。</p>
+															</div>
+														</div>
+													</div>
+												</div>
+					
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section><!-- #content end -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container clearfix">
+
+					<div class="row justify-content-center mb-5">
+						<div class="col-xl-6 col-lg-8 text-center">
+							<h3 class="h1 fw-bold mb-3">協定校の校長挨拶</h3>
+						</div>
+					</div>
+
+					<!-- Testimonial Light
+					============================================= -->
+					<div class="row justify-content-center">
+						<div class="col-lg-10">
+							<div class="testimonial block-testimonials px-0">
+								<div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget" data-margin="0" data-items="1">
+									<div class="oc-item">
+										<div class="row g-0 align-items-center">
+										    <div class="col-md-4 d-flex flex-column text-center align-items-center">
+												<img src="images/ecja/ymca.jpg" alt="Author" class="rounded-circle mb-3 w-auto" width="100" height="100">
+												<h4 class="mb-0"><a class="text-dark" href="#">平岡　守</a></h4>
+												<h5 class="text-muted mb-0 fw-normal">YMCA健康福祉専門学校</h5>
+										    </div>
+										    <div class="col-md-8 p-4 testi-content">
+												<p class="text-larger mb-0">"Rapidiously reintermediate visionary applications for open-source bandwidth. Uniquely e-enable proactive process improvements rather than empowered benefits. Competently transition compelling results before enterprise resources. Professionally disintermediate."</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="oc-item">
+										<div class="row g-0 align-items-center">
+										    <div class="col-md-4 d-flex flex-column text-center align-items-center">
+												<img src="images/ecja/eiko.png" alt="Author" class="rounded-circle mb-3 w-auto" width="100" height="100">
+												<h4 class="mb-0"><a class="text-dark" href="#">芳本 ニナ</a></h4>
+												<h5 class="text-muted mb-0 fw-normal">永興日本語学園</h5>
+										    </div>
+										    <div class="col-md-8 p-4 testi-content">
+												<p class="text-larger mb-0">"Assertively utilize performance based processes through an expanded array of human capital. Enthusiastically build flexible materials before customer directed models. Completely extend user-centric sources vis-a-vis."</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="oc-item">
+										<div class="row g-0 align-items-center">
+										    <div class="col-md-4 d-flex flex-column text-center align-items-center">
+												<img src="images/ecja/seigan.jpg" alt="Author" class="rounded-circle mb-3 w-auto" width="100" height="100">
+												<h4 class="mb-0"><a class="text-dark" href="#">Jim Séchen</a></h4>
+												<h5 class="text-muted mb-0 fw-normal">Developer</h5>
+										    </div>
+										    <div class="col-md-8 p-4 testi-content">
+												<p class="text-larger mb-0">"Enthusiastically synergize premier solutions rather than superior leadership skills. Competently negotiate adaptive vortals and enterprise partnerships. Intrinsicly recaptiualize one-to-one results without optimal bandwidth. Conveniently enhance."</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</section><!-- #content end -->
+		<section id="content">
+			<div class="content-wrap">
+				<div id="section-blog" class="page-section">
+					<div class="row justify-content-center mb-5">
+						<div class="col-xl-6 col-lg-8 text-center">
+							<h3 class="h1 fw-bold mb-3">協定機関</h3>
+						</div>
+					</div>
+					<div class="container topmargin-lg clearfix">
+
+						<div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget" data-margin="80" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
+
+							<div class="oc-item"><a href="#"><img src="images/ecja/logo2.jpg" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/logo3.png" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/logo4.png" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/logo5.jpg" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/logo6.png" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/logo7.png" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/logo8.jpg" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/logo9.png" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/logo10.png" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/seigan.jpg" alt="Clients"></a></div>
+							<div class="oc-item"><a href="#"><img src="images/ecja/ymca.jpg" alt="Clients"></a></div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer">
+			<div class="container">
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-50">
+						<div class="col-md-6 col-lg-4">
+
+							<div class="widget clearfix">
+								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+									<address>
+										<strong>Location:</strong><br>
+										502, Business Plaza, Chinggis avenue, Sukhbaatar District, Ulaanbaatar, Mongolia
+									</address>
+									<strong title="Phone Number"><strong>Phone:</strong></strong> +976 80755710<br>
+									<strong title="Email Address"><strong>Email:</strong></strong> info@ecja.mn
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="col-md-6 col-lg-4">
+
+							<div class="widget clearfix">
+								<div class="fslider testimonial no-image bg-transparent border-0 shadow-none p-0" data-animation="slide" data-arrows="false">
+									<div class="flexslider">
+										<div class="slider-wrap">
+											<div class="slide">
+												<div class="testi-content">
+													<p>私たちは多くなモンゴル人若者の“日本に留学する夢を叶えるよう”全力で頑張っています。</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="widget clearfix">
+
+								<a href="https://www.facebook.com/ECJAMongolia" class="social-icon si-small si-rounded si-facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+								<a href="https://www.instagram.com/ecjamongolia/" class="social-icon si-small si-rounded si-twitter">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+							</div>
+
+						</div>
+
+						<div class="col-md-6 col-lg-4">
+
+							<div class="widget quick-contact-widget form-widget clearfix">
+
+								<h4>メッセージ</h4>
+
+								<div class="form-result"></div>
+
+								<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form mb-0">
+
+									<div class="form-process">
+										<div class="css3-spinner">
+											<div class="css3-spinner-scaler"></div>
+										</div>
+									</div>
+
+									<div class="input-group mx-auto">
+										<div class="input-group-text"><i class="icon-user"></i></div>
+										<input type="text" class="required form-control" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="名前" />
+									</div>
+									<div class="input-group mx-auto">
+										<div class="input-group-text"><i class="icon-email2"></i></div>
+										<input type="text" class="required form-control email" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="電話番号" />
+									</div>
+									<textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="メッセージ"></textarea>
+									<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
+									<input type="hidden" name="prefix" value="quick-contact-form-">
+									<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="btn btn-danger m-0" value="submit">送信</button>
+
+								</form>
+
+							</div>
+
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row justify-content-between">
+						<div class="col-12 col-lg-auto text-center text-lg-start">
+							<p class="mb-3">Copyrights &copy; 2021 All Rights Reserved by ECJA LLC.</p>
+						</div>
+
+						<div class="col-12 col-lg-auto text-center text-lg-end">
+							<div class="copyrights-menu copyright-links mb-0">
+								<a href="#">ホーム</a>/<a href="#">会社情報</a>/<a href="#">教育サービス</a>/<a href="#">インターンシップ</a>/<a href="#">日本語センター</a>/<a href="#">最新情報</a>/<a href="#">アンケート</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<div class="mode-switcher">
+		<div class="pts-text center"><span class="tdark">Dark</span><span class="tlight">Light</span></div>
+		<div class="pts-switcher">
+			<div class="switch">
+				<input id="switch-toggle-mode" class="switch-toggle switch-toggle-round" type="checkbox">
+				<label for="switch-toggle-mode"></label>
+			</div>
+		</div>
+	</div>
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+
+		jQuery(document).ready( function($){
+			function modeSwitcher( elementCheck, elementParent ) {
+				if( elementCheck.filter(':checked').length > 0 ) {
+					elementParent.addClass('dark');
+					$('.mode-switcher').toggleClass('pts-switch-active');
+				} else {
+					elementParent.removeClass('dark');
+					$('.mode-switcher').toggleClass('pts-switch-active', false);
+				}
+			}
+
+			$('.pts-switcher').each( function(){
+				var element = $(this),
+					elementCheck = element.find(':checkbox'),
+					elementParent = $('body');
+
+				modeSwitcher( elementCheck, elementParent );
+
+				elementCheck.on( 'change', function(){
+					modeSwitcher( elementCheck, elementParent );
+				});
+			});
+		});
+	</script>
+
+</body>
+</html>
