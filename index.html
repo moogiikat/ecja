@@ -175,7 +175,7 @@
 						<div class="swiper-slide dark">
 							<div class="container">
 								<div class="slider-caption slider-caption-center">
-									<h2 data-animate="fadeInUp" class="title">"EDUCATION CENTER OF JAPAN"<br> нүүр хуудсанд тавтай морил</h2>
+									<h3 data-animate="fadeInUp" class="title okay">"EDUCATION CENTER OF JAPAN"<br> нүүр хуудсанд тавтай морил</h2>
 								</div>
 							</div>
 							<div class="swiper-slide-bg" style="background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4)), url('images/ecja/home.jpg') no-repeat top center / cover;"></div>
@@ -566,7 +566,7 @@
 
 								<div class="form-result"></div>
 
-								<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form mb-0">
+								<form id="quick-contact-form" name="quick-contact-form" action="anket/form.php" method="post" enctype=”multipart/form-data” class="quick-contact-form mb-0">
 
 									<div class="form-process">
 										<div class="css3-spinner">
@@ -576,15 +576,15 @@
 
 									<div class="input-group mx-auto">
 										<div class="input-group-text"><i class="icon-user"></i></div>
-										<input type="text" class="required form-control" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Овог, нэр:" />
+										<input type="text" class="required form-control" id="quick-contact-form-name" name="name" value="" placeholder="Овог, нэр:" />
 									</div>
 									<div class="input-group mx-auto">
 										<div class="input-group-text"><i class="icon-email2"></i></div>
-										<input type="text" class="required form-control email" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Утасны дугаар:" />
+										<input type="text" class="required form-control email" id="quick-contact-form-email" name="email" value="" placeholder="Утасны дугаар:" />
 									</div>
-									<textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Мессэж"></textarea>
-									<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
-									<input type="hidden" name="prefix" value="quick-contact-form-">
+									<textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message" name="message" rows="4" cols="30" placeholder="Мессэж"></textarea>
+									<!-- <input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
+									<input type="hidden" name="prefix" value="quick-contact-form-"> -->
 									<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="btn btn-danger m-0" value="submit">Илгээх</button>
 
 								</form>

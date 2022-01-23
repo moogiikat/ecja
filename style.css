@@ -223,6 +223,8 @@ h2 { font-size: 30px; }
 
 h3 { font-size: 1.5rem; }
 
+.okay { font-size: 3.0rem; }
+
 h4 { font-size: 18px; }
 
 h5 { font-size: 0.875rem; }
@@ -5897,6 +5899,10 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 	.swiper_wrapper .slider-caption h2 {
 		font-size: 5.5vw;
+	}
+
+	.swiper_wrapper .slider-caption .okay {
+		font-size: 5vw;
 	}
 
 	.swiper_wrapper .slider-caption p {
