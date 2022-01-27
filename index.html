@@ -23,10 +23,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="css/colors.php?color=0C1CCC" type="text/css" />
 
-	<!-- Articles Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/articles/articles.css" type="text/css" />
-	<link rel="stylesheet" href="demos/articles/css/fonts.css" type="text/css" />
-
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -96,25 +92,37 @@
 				<div class="row justify-content-between">
 					<div class="col-12 col-md-auto">
 
-						<!-- Top Social
+						<!-- Top Links
 						============================================= -->
-						<ul id="top-social">
-							<li><a href="#" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
-							<li><a href="#" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
-						</ul><!-- #top-social end -->
+						<div class="top-links">
+							<ul class="top-links-container">
+								<li class="top-links-item"><a href="index.html">Асуулт</a></li>
+								<li class="top-links-item"><a href="faqs.html">Анкет</a></li>
+								<li class="top-links-item"><a style="color: #FFF !important;">MON</a>
+									<!-- <li class="menu-item">
+										<a href="index.html" style="width: 5%;"><img style="width: 30px;" src="images/ecja/mongolia.png" alt=""></a>
+										<a href="index-jp.html" style="width: 5%;"><img style="width: 30px;" src="images/ecja/japan.png" alt=""></a>
+									</li> -->
+									<ul class="top-links-sub-menu">
+										<li class="top-links-item"><a href="index.html" style="color: black !important;"><img src="images/ecja/mongolia.png" alt="Lang">Монгол хэл</a></li>
+										<li class="top-links-item"><a href="index-jp.html" style="color: black !important;"><img src="images/ecja/japan.png" alt="Lang">日本語</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!-- .top-links end -->
 
 					</div>
 
 					<div class="col-12 col-md-auto">
 
-						<!-- Top Links
+						<!-- Top Social
 						============================================= -->
-						<div class="top-links">
-							<ul class="top-links-container">
-								<li class="top-links-item"><a href="#">info@ecja.mn</a></li>
-								<li class="top-links-item"><a href="faqs.html">80755710</a></li>
-							</ul>
-						</div><!-- .top-links end -->
+						<ul id="top-social">
+							<li><a href="#" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+							<li><a href="#" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
+							<li><a href="tel:+976.80755710" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">80755710</span></a></li>
+							<li><a href="mailto:info@ecja.mn" class="si-email3"><span class="ts-icon"><i class="icon-envelope-alt"></i></span><span class="ts-text">info@ecja.mn</span></a></li>
+						</ul><!-- #top-social end -->
 
 					</div>
 				</div>
@@ -164,9 +172,14 @@
 								</li>
 								<li class="menu-item">
 									<a class="menu-link" href="education-service-mon.html"><div>Боловсролын үйлчилгээ</div></a>
-								</li>
-								<li class="menu-item">
-									<a class="menu-link" href="scholarship-mon.html"><div>Тэтгэлэг</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="scholarship-mon.html"><div>Сургууль</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="scholarship-mon.html"><div>Тэтгэлэг</div></a>
+										</li>
+									</ul>
 								</li>
 								<li class="menu-item">
 									<a class="menu-link" href="japanese-center-mon.html"><div>Япон хэлний сургалт</div></a>
@@ -187,10 +200,6 @@
 										<div>Анкет татах</div>
 									</a>
 								</li>
-								<li class="menu-item">
-									<a href="index.html" style="width: 5%;"><img style="width: 30px;" src="images/ecja/mongolia.png" alt=""></a>
-									<a href="index-jp.html" style="width: 5%;"><img style="width: 30px;" src="images/ecja/japan.png" alt=""></a>
-								</li>
 							</ul>				
 						</nav><!-- #primary-menu end -->
 					</div>
@@ -205,9 +214,9 @@
 					<div class="swiper-wrapper">
 						<div class="swiper-slide dark">
 							<div class="container">
-								<div class="slider-caption slider-caption-center">
+								<!-- <div class="slider-caption slider-caption-center">
 									<h3 data-animate="fadeInUp" class="title okay">"EDUCATION CENTER OF JAPAN"<br> нүүр хуудсанд тавтай морил</h2>
-								</div>
+								</div> -->
 							</div>
 							<div class="swiper-slide-bg" style="background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4)), url('images/ecja/home.jpg') no-repeat top center / cover;"></div>
 						</div>
@@ -239,6 +248,23 @@
 					<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
 					<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
 				</div>
+				<div class="vertical-middle slider-element-fade">
+					<div class="container py-5">
+						<div class="row pt-5">
+							<div class="col-lg-8 col-md-8">
+								<div class="slider-title" style="color: #FFF !important;">
+									<h2 style="color: #FFF !important;">Education Center of JAPAN</h2>
+									<h3 style="color: #FFF !important;" class="text-rotater mb-2" data-separator="," data-rotate="fadeIn" data-speed="3500"><span style="color: #dc3545;" class="t-rotate">Таны мөрөөдөл, Таны хүсэл, Таны зорилго</span> биелэхэд бид тусална.</h3>
+									<p style="color: #FFF !important;">Дэлхийн боловсролыг Монгол залууст тэгш байдлаар түгээж, <br> олон улсад бэлтгэгдсэн боловсон хүчнийг бий болгоход бидний зорилго оршино.</p>
+									<a href="https://docs.google.com/forms/d/1butpasmcv8AwMoFJniozIxgGXIREVooSV7tFA_UE4Gs/viewform?fbclid=IwAR0udt6hpAoosnUchU5GJcA8-WeaOpnj_fWJIlkng6e2bzOUYjxTe6a0MGc&edit_requested=true" class="button button-rounded button-large button-light text-dark bg-white border nott ls0" style="color: #dc3545 !important;">Бүртгүүлэх</a>
+								</div>
+							</div>
+							<div class="col-md-3 d-none d-md-block">
+								<img src="images/ecja/tokyo__japan_vector_illustration_by_cif3r_dazphiy-pre.png" alt="Image">
+							</div>
+						</div>
+					</div>
+				</div>
 
 				<a href="#" data-scrollto="#content" data-offset="100" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
 
@@ -249,6 +275,7 @@
 			<div class="content-wrap" style="padding-bottom: 0px;">
 				<div class="container">
 					<div class="row feature-box-border-horizontal border-hover-animate col-mb-50 justify-content-center my-5">
+						<div style="text-align: center;"> <h2 >"Education Center of JAPAN" хэрхэн үүссэн бэ?</h2> </div>
 						<div class="col-md-4 feature-box fbox-light fbox-center fbox-effect">
 							<div class="fbox-icon bg-white mb-4">
 								<a href="#"><i style="font-size: 15px;">2014 он</i></a>
@@ -292,15 +319,103 @@
 				<div class="container">
 					<div class="row align-items-center">
 
-						<div class="col-lg-5">
+						<!-- <div class="col-lg-5">
 							<div>
 								<h1>Эрхэм зорилго</h1>
 							</div>
 							<div class="line border-width-5 w-25 my-5"></div>
 							<p class="lead">Дэлхийн боловсролыг Монгол залууст тэгш байдлаар түгээж, Олон улсад бэлтгэгдсэн боловсон хүчнийг бий болгоход бидний зорилго оршино.</p>
+						</div> -->
+						<div class="col-md-6 col-lg-6 col-padding" style="background-color: #F9F9F9;">
+							<div class="heading-block border-bottom-0">
+								<h4>Popular Destinations</h4>
+							</div>
+	
+							<div class="posts-sm row col-mb-30">
+								<div class="entry col-sm-6 col-md-12">
+									<div class="grid-inner row align-items-center g-0">
+										<div class="col-auto">
+											<div class="entry-image">
+												<a href="#"><img src="images/magazine/small/1.jpg" alt="Image"></a>
+											</div>
+										</div>
+										<div class="col ps-3">
+											<div class="entry-title">
+												<h4><a href="#">7 Nights/8 Days Europe</a></h4>
+											</div>
+											<div class="entry-meta">
+												<ul>
+													<li><span class="color">$599</span> onwards</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+	
+								<div class="entry col-sm-6 col-md-12">
+									<div class="grid-inner row align-items-center g-0">
+										<div class="col-auto">
+											<div class="entry-image">
+												<a href="#"><img src="images/magazine/small/2.jpg" alt="Image"></a>
+											</div>
+										</div>
+										<div class="col ps-3">
+											<div class="entry-title">
+												<h4><a href="#">4 Nights/5 Days Thailand</a></h4>
+											</div>
+											<div class="entry-meta">
+												<ul>
+													<li><span class="color">$399</span> onwards</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+	
+								<div class="entry col-sm-6 col-md-12">
+									<div class="grid-inner row align-items-center g-0">
+										<div class="col-auto">
+											<div class="entry-image">
+												<a href="#"><img src="images/magazine/small/3.jpg" alt="Image"></a>
+											</div>
+										</div>
+										<div class="col ps-3">
+											<div class="entry-title">
+												<h4><a href="#">11 Nights/12 Days America</a></h4>
+											</div>
+											<div class="entry-meta">
+												<ul>
+													<li><span class="color">$1299</span> onwards</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+	
+								<div class="entry col-sm-6 col-md-12">
+									<div class="grid-inner row align-items-center g-0">
+										<div class="col-auto">
+											<div class="entry-image">
+												<a href="#"><img src="images/magazine/small/4.jpg" alt="Image"></a>
+											</div>
+										</div>
+										<div class="col ps-3">
+											<div class="entry-title">
+												<h4><a href="#">14 Nights/15 Days New Zealand</a></h4>
+											</div>
+											<div class="entry-meta">
+												<ul>
+													<li><span class="color">$1999</span> onwards</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+	
 						</div>
 
-						<div class="col-lg-7 align-self-end">
+						<div class="col-lg-6 align-self-end">
 
 							<div class="position-relative overflow-hidden">
 								<img src="images/ecja/vision.jpg" alt="Chrome">
@@ -313,6 +428,169 @@
 			</div>
 			<div class="content-wrap d-flex min-vh-50 align-items-center">
 				<div class="container clearfix">
+					<!-- Featured Carousel
+					============================================= -->
+					<div class="fancy-title title-border mt-4 title-center">
+						<h4>Weekly Featured Items</h4>
+					</div>
+
+					<div id="oc-products" class="owl-carousel products-carousel carousel-widget" data-margin="20" data-loop="true" data-autoplay="5000" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4" data-items-xl="5">
+
+						<!-- Shop Item 1
+						============================================= -->
+						<div class="oc-item">
+							<div class="product">
+								<div class="product-image">
+									<a href="#"><img src="images/ecja/logo3.png" alt="Round Neck T-shirts"></a>
+									<a href="#"><img src="demos/shop/images/items/featured/1-1.jpg" alt="Round Neck T-shirts"></a>
+									<div class="sale-flash badge bg-danger p-2">Sale!</div>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
+											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
+											<a href="demos/shop/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="icon-line-expand"></i></a>
+										</div>
+										<div class="bg-overlay-bg bg-transparent"></div>
+									</div>
+								</div>
+								<div class="product-desc">
+									<div class="product-title mb-1"><h3><a href="#">Round Neck Solid Light Blue Colour T-shirts</a></h3></div>
+									<div class="product-price font-primary"><del class="me-1">$24.99</del> <ins>$12.49</ins></div>
+									<div class="product-rating">
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star-half-full"></i>
+										<i class="icon-star-empty"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Shop Item 2
+						============================================= -->
+						<div class="oc-item">
+							<div class="product">
+								<div class="product-image">
+									<a href="#"><img src="demos/shop/images/items/featured/2.jpg" alt="Navy Blue Dress"></a>
+									<a href="#"><img src="demos/shop/images/items/featured/2-1.jpg" alt="Navy Blue Dress"></a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
+											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
+											<a href="demos/shop/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="icon-line-expand"></i></a>
+										</div>
+										<div class="bg-overlay-bg bg-transparent"></div>
+									</div>
+								</div>
+								<div class="product-desc">
+									<div class="product-title mb-1"><h3><a href="#">Navy Blue Dress For Women</a></h3></div>
+									<div class="product-price font-primary"><ins>$19.99</ins></div>
+									<div class="product-rating">
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star-half-full"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Shop Item 3
+						============================================= -->
+						<div class="oc-item">
+							<div class="product">
+								<div class="product-image">
+									<a href="#"><img src="demos/shop/images/items/featured/5.jpg" alt="Shoes"></a>
+									<a href="#"><img src="demos/shop/images/items/featured/5-1.jpg" alt="Shoes"></a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+											<a href="demos/shop/ajax/shop-item-no-stock.html" class="btn btn-dark" data-lightbox="ajax">Quick View</a>
+										</div>
+										<div class="bg-overlay-bg bg-transparent"></div>
+									</div>
+								</div>
+								<div class="sale-flash badge bg-secondary p-2">Out of Stock!</div>
+								<div class="product-desc">
+									<div class="product-title mb-1"><h3><a href="#">White athletic shoe</a></h3></div>
+									<div class="product-price font-primary"><ins>$35.00</ins></div>
+									<div class="product-rating">
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Shop Item 4
+						============================================= -->
+						<div class="oc-item">
+							<div class="product">
+								<div class="product-image">
+									<div class="fslider" data-arrows="false" data-autoplay="4500">
+										<div class="flexslider">
+											<div class="slider-wrap">
+												<div class="slide"><a href="#"><img src="demos/shop/images/items/featured/4.jpg" alt="T-shirts"></a></div>
+												<div class="slide"><a href="#"><img src="demos/shop/images/items/featured/4-1.jpg" alt="T-shirts"></a></div>
+												<div class="slide"><a href="#"><img src="demos/shop/images/items/featured/4-2.jpg" alt="T-shirts"></a></div>
+												<div class="slide"><a href="#"><img src="demos/shop/images/items/featured/4-3.jpg" alt="T-shirts"></a></div>
+											</div>
+										</div>
+									</div>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
+											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
+											<a href="demos/shop/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="icon-line-expand"></i></a>
+										</div>
+										<div class="bg-overlay-bg bg-transparent"></div>
+									</div>
+								</div>
+								<div class="sale-flash badge bg-danger p-2">Sale!</div>
+								<div class="product-desc">
+									<div class="product-title mb-1"><h3><a href="#">Navy blue T-shirt, Round neck, Short Sleeves</a></h3></div>
+									<div class="product-price font-primary"><del class="me-1">$27.99</del> <ins>$21.00</ins></div>
+									<div class="product-rating">
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star-empty"></i>
+										<i class="icon-star-empty"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Shop Item 5
+						============================================= -->
+						<div class="oc-item">
+							<div class="product">
+								<div class="product-image">
+									<a href="#"><img src="demos/shop/images/items/featured/3.jpg" alt="T-shirts"></a>
+									<div class="bg-overlay">
+										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
+											<a href="#" class="btn btn-dark me-2"><i class="icon-shopping-basket"></i></a>
+											<a href="demos/shop/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="icon-line-expand"></i></a>
+										</div>
+										<div class="bg-overlay-bg bg-transparent"></div>
+									</div>
+								</div>
+								<div class="product-desc">
+									<div class="product-title mb-1"><h3><a href="#">Women Black T-Shirt</a></h3></div>
+									<div class="product-price font-primary"><ins>$13.00</ins></div>
+									<div class="product-rating">
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star3"></i>
+										<i class="icon-star-empty"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
 					<div class="row col-mb-50 justify-content-center">
 
 						<div class="col-xl-6 col-lg-8 text-center">
@@ -505,7 +783,32 @@
 		</section><!-- #content end -->
 		<section id="content">
 			<div class="content-wrap">
-				<div id="section-blog" class="page-section">
+				<div class="section mt-3 mb-4 pt-0 bg-transparent">
+					<div class="container clearfix">
+						<div class="mx-auto" style="max-width: 1000px">
+							<div class="heading-block center mx-auto border-bottom-0 clearfix" style="max-width: 700px">
+								<h2>Хамтран ажиллагч байгууллагууд</h2>
+								<p>Бид Монгол болон Япон улсын аж ахуй нэгж, сургуулиудтай хамтран нийгмийн тэгш оролцоо, боловсролын хүртээмжтэй байдлыг нэмэгдүүлэх зорилгоор томоохон хэмжээний олон төсөл, хөтөлбөрүүдийг санаачлан хэрэгжүүлдэг билээ.</p>
+							</div>
+							<!-- Clients Images -->
+							<div class="row clearfix">
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/logo2.jpg" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/logo3.png" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/logo4.png" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/logo5.jpg" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/logo6.png" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/logo7.png" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/logo8.jpg" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/logo9.png" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/logo10.png" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/ymca.jpg" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/muis.png" alt="Image" class="clients"></a></div>
+								<div class="col-sm-2 col-6 center" style="display: flex; align-items: center; justify-content: center;"><a href="#"><img src="images/ecja/eikooo.png" alt="Image" class="clients"></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div id="section-blog" class="page-section">
 					<div class="row justify-content-center mb-5">
 						<div class="col-xl-6 col-lg-8 text-center">
 							<h3 class="h1 fw-bold mb-3">Хамтрагч байгууллагууд</h3>
@@ -529,16 +832,14 @@
 
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</section><!-- #content end -->
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer">
+		<!-- <footer id="footer">
 			<div class="container">
-				<!-- Footer Widgets
-				============================================= -->
 				<div class="footer-widgets-wrap">
 
 					<div class="row col-mb-50">
@@ -614,8 +915,6 @@
 										<input type="text" class="required form-control email" id="quick-contact-form-email" name="email" value="" placeholder="Утасны дугаар:" />
 									</div>
 									<textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message" name="message" rows="4" cols="30" placeholder="Мессэж"></textarea>
-									<!-- <input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
-									<input type="hidden" name="prefix" value="quick-contact-form-"> -->
 									<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="btn btn-danger m-0" value="submit">Илгээх</button>
 
 								</form>
@@ -625,11 +924,8 @@
 						</div>
 					</div>
 
-				</div><!-- .footer-widgets-wrap end -->
+				</div>
 			</div>
-
-			<!-- Copyrights
-			============================================= -->
 			<div id="copyrights">
 				<div class="container">
 
@@ -647,19 +943,75 @@
 
 				</div>
 			</div><!-- #copyrights end -->
+		</footer> -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row">
+						<div class="col-6 col-md"  style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+							<img class="mb-3" src="images/ecja/logo.jpeg" alt="Image" width="160">
+							<small class="d-block mb-4 text-muted">&copy; 2022</small>
+							<p class="text-white-50" style="font-size: 16px;">Улаанбаатар хот, Сүхбаатар дүүрэг, Чингисийн өргөн чөлөө, Бизнес Плаза, 502</p>
+							<a href="#" class="mb-2 d-block"><i class="icon-line2-call-in me-2"></i>+976 80755710</a>
+							<a href="#"><i class="icon-line2-envelope me-2"></i>info@ecja.mn</a>
+						</div>
+						<div class="col-6 col-md">
+							<h4 class="text-uppercase ls2 fw-normal">Best Courses</h4>
+							<ul class="list-unstyled mb-0">
+								<li><h5 class="mb-0"><a href="#" class="text-white">Cooking Classes</a></h5><p>Dylan Meringue</p></li>
+								<li><h5 class="mb-0"><a href="#" class="text-white">Learning Spanish</a></h5><p>Gunther Beard</p></li>
+								<li><h5 class="mb-0"><a href="#" class="text-white">Website Development</a></h5><p>Desmond Eagle</p></li>
+							</ul>
+						</div>
+						<div class="col-6 col-md col-sm mt-4 mt-md-0 mt-lg-0 mt-xl-0">
+							<h4 class="text-uppercase ls2 fw-normal">Support</h4>
+							<ul class="list-unstyled mb-0">
+								<li><h5 class="mb-2 fw-normal"><a href="#">Нүүр</a></h5></li>
+								<li><h5 class="mb-2 fw-normal"><a href="#">Бидний тухай</a></h5></li>
+								<li><h5 class="mb-2 fw-normal"><a href="#">Боловсролын үйлчилгээ</a></h5></li>
+								<li><h5 class="mb-2 fw-normal"><a href="#">Тэтгэлэг</a></h5></li>
+								<li><h5 class="mb-2 fw-normal"><a href="#">Япон хэлний сургалт</a></h5></li>
+								<li><h5 class="mb-2 fw-normal"><a href="#">Шинэ мэдээ</a></h5></li>
+								<li><h5 class="mb-2 fw-normal"><a href="#">Анкет</a></h5></li>
+							</ul>
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="row align-items-center justify-content-between">
+						<div class="col-md-6">
+							Copyrights &copy; 2021 All Rights Reserved by ECJA LLC.<br>
+						</div>
+
+						<!-- <div class="col-md-6 d-flex justify-content-md-end mt-4 mt-md-0">
+							<div class="copyrights-menu copyright-links mb-0 clearfix">
+								<a href="index.html">Нүүр</a>/<a href="about-mon.html">Бидний тухай</a>/<a href="education-service-mon.html">Боловсролын үйлчилгээ</a>/<a href="scholarship-mon.html">Тэтгэлэг</a>/<a href="japanese-center-mon.html">Япон хэлний сургалт</a>/<a href="index.html#news">Шинэ мэдээ</a>/<a href="anket/ХЭЛНИЙ-БЭЛТГЭЛИЙН-АНКЕТ.docx">Анкет</a>
+							</div>
+						</div> -->
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
 		</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->
-
-	<div class="mode-switcher">
-		<div class="pts-text center"><span class="tdark">Dark</span><span class="tlight">Light</span></div>
-		<div class="pts-switcher">
-			<div class="switch">
-				<input id="switch-toggle-mode" class="switch-toggle switch-toggle-round" type="checkbox">
-				<label for="switch-toggle-mode"></label>
-			</div>
-		</div>
-	</div>
 
 	<!-- Go To Top
 	============================================= -->
@@ -673,33 +1025,6 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
-
-	<script>
-
-		jQuery(document).ready( function($){
-			function modeSwitcher( elementCheck, elementParent ) {
-				if( elementCheck.filter(':checked').length > 0 ) {
-					elementParent.addClass('dark');
-					$('.mode-switcher').toggleClass('pts-switch-active');
-				} else {
-					elementParent.removeClass('dark');
-					$('.mode-switcher').toggleClass('pts-switch-active', false);
-				}
-			}
-
-			$('.pts-switcher').each( function(){
-				var element = $(this),
-					elementCheck = element.find(':checkbox'),
-					elementParent = $('body');
-
-				modeSwitcher( elementCheck, elementParent );
-
-				elementCheck.on( 'change', function(){
-					modeSwitcher( elementCheck, elementParent );
-				});
-			});
-		});
-	</script>
 
 </body>
 </html>
